@@ -21,7 +21,7 @@ export default function ContactSection({ t }: ContactSectionProps) {
         href="mailto:carolinaarizat93@gmail.com"
       >
         <Mail size={17} />
-        {t.email}
+        carolinaarizat93@gmail.com
         <ArrowUpRight size={17} />
       </a>
 
