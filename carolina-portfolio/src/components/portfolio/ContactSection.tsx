@@ -18,10 +18,12 @@ export default function ContactSection({ t }: ContactSectionProps) {
 
       <a
         className="button-primary contact-button"
-        href="mailto:carolinaarizat93@gmail.com"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=carolinaarizat93@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <Mail size={17} />
-        carolinaarizat93@gmail.com
+        {t.email}
         <ArrowUpRight size={17} />
       </a>
 
